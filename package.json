@@ -1,0 +1,23 @@
+{
+  "name": "jellyroid",
+  "version": "1.0.0",
+  "description": "Jellyroid Slackbot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubymix/jellyroid.git"
+  },
+  "author": "Junghyun Kim <zerocool@sulhee.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rubymix/jellyroid/issues"
+  },
+  "homepage": "https://github.com/rubymix/jellyroid#readme",
+  "dependencies": {
+    "@slack/client": "^4.8.0",
+    "node-schedule-tz": "^1.2.1-4"
+  }
+}
